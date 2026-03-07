@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Privacy Policy – MacroSnap</title>
+  <title>MacroSnap – Support & Privacy Policy</title>
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body {
@@ -81,10 +81,103 @@
       margin-top: 16px;
     }
     .contact-block p { margin-bottom: 4px; color: #333; }
+    .support-hero {
+      background: linear-gradient(135deg, #0F2A1D 0%, #1a1a1a 100%);
+      border-radius: 16px;
+      padding: 36px 28px;
+      margin-bottom: 40px;
+      border: 1px solid #2ab574;
+    }
+    .support-hero h2 {
+      color: #3DD68C;
+      font-size: 22px;
+      margin-top: 0;
+      margin-bottom: 8px;
+    }
+    .support-hero p {
+      color: #ccc;
+      margin-bottom: 20px;
+    }
+    .support-btn {
+      display: inline-block;
+      background: #3DD68C;
+      color: #111;
+      font-weight: 700;
+      font-size: 15px;
+      padding: 12px 24px;
+      border-radius: 30px;
+      text-decoration: none;
+    }
+    .support-btn:hover { background: #2ab574; text-decoration: none; }
+    .faq-item {
+      border: 1px solid #eee;
+      border-radius: 12px;
+      padding: 18px 20px;
+      margin-bottom: 12px;
+    }
+    .faq-item h3 {
+      font-size: 15px;
+      font-weight: 700;
+      color: #1a1a1a;
+      margin-bottom: 6px;
+    }
+    .faq-item p {
+      font-size: 14px;
+      color: #555;
+      margin-bottom: 0;
+    }
   </style>
 </head>
 <body>
   <div class="container">
+
+    <!-- ── SUPPORT SECTION ── -->
+    <div class="badge">Support</div>
+    <h1>MacroSnap Support</h1>
+    <p class="subtitle">MacroSnap – AI Calorie Counter</p>
+    <p class="updated">We're here to help</p>
+
+    <div class="support-hero">
+      <h2>Contact Support</h2>
+      <p>Having trouble with the app? Questions about your subscription or account? Send us an email and we'll get back to you within 24 hours.</p>
+      <a href="mailto:alexgasic@yahoo.com" class="support-btn">Email Support</a>
+    </div>
+
+    <h2>Frequently Asked Questions</h2>
+
+    <div class="faq-item">
+      <h3>How do I cancel my subscription?</h3>
+      <p>Open the Settings app on your iPhone → tap your Apple ID at the top → Subscriptions → find MacroSnap → tap Cancel Subscription. You can also manage subscriptions at <a href="https://apps.apple.com/account/subscriptions" target="_blank">apps.apple.com/account/subscriptions</a>.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>How do I restore my purchase on a new device?</h3>
+      <p>Open MacroSnap, go to the paywall screen, and tap "Restore" in the top right corner. Make sure you're signed in with the same Apple ID used for the original purchase.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>The AI scan results look wrong — what do I do?</h3>
+      <p>Tap "Fix Results" on the scan results screen to manually adjust calories and macros. For best results, make sure your food is well-lit and clearly visible in the photo.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>How do I delete my account and data?</h3>
+      <p>Go to the Profile tab in the app → scroll to the bottom → tap "Delete Account". This will permanently delete all your data. You can also email us at <a href="mailto:alexgasic@yahoo.com">alexgasic@yahoo.com</a> to request deletion.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>I was charged but the app says I'm not subscribed</h3>
+      <p>Tap "Restore" on the paywall screen to restore your purchase. If the issue persists, email us at <a href="mailto:alexgasic@yahoo.com">alexgasic@yahoo.com</a> with your Apple ID and we'll resolve it promptly.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>What does MacroSnap do with my food photos?</h3>
+      <p>Food photos are sent to the Anthropic Claude API for AI-powered nutrition analysis. Photos are not stored on our servers beyond what is needed to process your request. See our Privacy Policy below for full details.</p>
+    </div>
+
+    <hr class="divider" id="support" />
+
+    <!-- ── PRIVACY POLICY ── -->
     <div class="badge">Legal</div>
     <h1>Privacy Policy</h1>
     <p class="subtitle">MacroSnap – AI Calorie Counter</p>
@@ -92,7 +185,7 @@
 
     <h2>1. Introduction</h2>
     <p>Welcome to MacroSnap ("the App"), an AI-powered calorie and nutrition tracking application. This Privacy Policy explains how we collect, use, store, and protect your personal information when you use the App. By using MacroSnap, you agree to the practices described in this policy.</p>
-    <p>MacroSnap is operated by Alex Gasic, based in Australia. If you have any questions, contact us at <a href="/cdn-cgi/l/email-protection#a4c5c8c1dcc3c5d7cdc7e4ddc5cccbcb8ac7cbc9"><span class="__cf_email__" data-cfemail="1f7e737a67787e6c767c5f667e777070317c7072">[email&#160;protected]</span></a>.</p>
+    <p>MacroSnap is operated by Alex Gasic, based in Australia. If you have any questions, contact us at <a href="mailto:alexgasic@yahoo.com">alexgasic@yahoo.com</a>.</p>
 
     <h2>2. Information We Collect</h2>
     <p>We collect the following types of information when you use MacroSnap:</p>
@@ -115,16 +208,13 @@
     <p>We do not sell your personal information to third parties.</p>
 
     <h2>4. Data Storage and Security</h2>
-    <p>Your data is stored securely using Supabase, a third-party database and authentication provider. Supabase stores data on servers located outside Australia, including in the United States. By using the App, you consent to this transfer of data.</p>
-    <p>We implement reasonable security measures to protect your information. However, no method of transmission over the internet or electronic storage is completely secure, and we cannot guarantee absolute security.</p>
+    <p>Your data is stored securely using industry-standard security measures. We implement reasonable safeguards to protect your information. However, no method of transmission over the internet is completely secure, and we cannot guarantee absolute security.</p>
 
     <h2>5. Third-Party Services</h2>
     <p>MacroSnap uses the following third-party services:</p>
     <ul>
       <li><strong>Anthropic Claude API:</strong> AI-powered food recognition and nutrition analysis — <a href="https://www.anthropic.com/privacy" target="_blank">anthropic.com/privacy</a></li>
-      <li><strong>Supabase:</strong> Database and user authentication — <a href="https://supabase.com/privacy" target="_blank">supabase.com/privacy</a></li>
       <li><strong>Apple Sign In:</strong> Authentication via Apple — <a href="https://www.apple.com/legal/privacy" target="_blank">apple.com/legal/privacy</a></li>
-      <li><strong>Google Sign In:</strong> Authentication via Google — <a href="https://policies.google.com/privacy" target="_blank">policies.google.com/privacy</a></li>
       <li><strong>RevenueCat:</strong> In-app subscription management — <a href="https://www.revenuecat.com/privacy" target="_blank">revenuecat.com/privacy</a></li>
     </ul>
     <p>We are not responsible for the privacy practices of these third-party services.</p>
@@ -133,7 +223,7 @@
     <p>MacroSnap requests access to your device camera and photo library solely to allow you to photograph food for nutrition analysis. Photos are sent to the Anthropic Claude API to identify food items and estimate nutritional content. We do not store your photos on our servers beyond what is necessary to provide this feature.</p>
 
     <h2>7. Children's Privacy</h2>
-    <p>MacroSnap is not intended for use by children under the age of 13. We do not knowingly collect personal information from children under 13. If you believe a child has provided us with personal information, please contact us at <a href="/cdn-cgi/l/email-protection#543538312c3335273d37142d353c3b3b7a373b39"><span class="__cf_email__" data-cfemail="751419100d1214061c16350c141d1a1a5b161a18">[email&#160;protected]</span></a> and we will delete it.</p>
+    <p>MacroSnap is not intended for use by children under the age of 13. We do not knowingly collect personal information from children under 13. If you believe a child has provided us with personal information, please contact us at <a href="mailto:alexgasic@yahoo.com">alexgasic@yahoo.com</a> and we will delete it.</p>
 
     <h2>8. Your Rights</h2>
     <p>You have the right to:</p>
@@ -143,10 +233,22 @@
       <li>Request deletion of your account and associated data.</li>
       <li>Withdraw consent to data processing at any time by deleting the App.</li>
     </ul>
-    <p>To exercise any of these rights, please contact us at <a href="/cdn-cgi/l/email-protection#c4a5a8a1bca3a5b7ada784bda5acababeaa7aba9"><span class="__cf_email__" data-cfemail="ec8d8089948b8d9f858fac958d848383c28f8381">[email&#160;protected]</span></a>.</p>
+    <p>To exercise any of these rights, please contact us at <a href="mailto:alexgasic@yahoo.com">alexgasic@yahoo.com</a>.</p>
 
     <h2>9. Data Retention</h2>
-    <p>We retain your data for as long as your account is active. If you delete the App without deleting your account, your data will be retained on our servers. To request full deletion of your data, contact us at <a href="/cdn-cgi/l/email-protection#46272a233e2127352f25063f272e29296825292b"><span class="__cf_email__" data-cfemail="a0c1ccc5d8c7c1d3c9c3e0d9c1c8cfcf8ec3cfcd">[email&#160;protected]</span></a>.</p>
+    <p>We retain your data for as long as your account is active. To request full deletion of your data, contact us at <a href="mailto:alexgasic@yahoo.com">alexgasic@yahoo.com</a>.</p>
 
     <h2>10. Changes to This Policy</h2>
-    <p>We may update this Privacy Policy from time to time.
+    <p>We may update this Privacy Policy from time to time. We will notify you of any significant changes by updating the date at the top of this page. Continued use of the App after changes constitutes acceptance of the updated policy.</p>
+
+    <hr class="divider" />
+
+    <div class="contact-block">
+      <p><strong>MacroSnap Support</strong></p>
+      <p>Email: <a href="mailto:alexgasic@yahoo.com">alexgasic@yahoo.com</a></p>
+      <p>Response time: within 24 hours</p>
+    </div>
+
+  </div>
+</body>
+</html>
